@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <main>
+
+        <!-- PARTE IZQUIERDA -->
+        
+        <section class="flex">
+            <div class="bienvenida">
+                <h1>Bienvenido a la lista de tareas.</h1>
+                <p>Design by <a href="https://github.com/agustdons" target="_blank"><span>donsAgustin</p></span></a>
+            </div>
+
+            <!-- PARTE DERECHA -->
+	        <div class="izquierda container">
+		        <div class="barraForm">
+                <h2>Tus Tareas</h2>
+                  <form class="formulario">
+                      <input type="text" id="texto-tarea" class="barraForm" name="todo"/>
+                      <input type="submit" id="agregarTarea" class="btnagregar" value="+"/>
+                    </form>
+                      
+                    <form>
+                      <ul id="todo-list" class="tareas">
+                      </ul>
+                    </form>
+		        </div>
+          </div>
+        </section>
+    </main>
+  
+  <script src="js/scripts.js"></script>
+</body>
+</html>
